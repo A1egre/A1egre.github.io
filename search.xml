@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>计算机图形学—实验3</title>
+      <link href="/2022/09/27/ji-suan-ji-tu-xing-xue-shi-yan-3/"/>
+      <url>/2022/09/27/ji-suan-ji-tu-xing-xue-shi-yan-3/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到我的Blog！</p><p>我是2020级医学信息工程2班的王卓雅！</p><p>这里是实验3的作业——WebGL图案绘制</p><h2 id="实验任务"><a href="#实验任务" class="headerlink" title="实验任务"></a>实验任务</h2><h3 id="任务a"><a href="#任务a" class="headerlink" title="任务a"></a>任务a</h3><p>要求在网页上添加交互式控件，输入剖分的层次(0-7)，绘制对应图案。如输入剖分层次分别为1和，其中颜色可任意选择。<br>这里是实验结果：<a href="/chapter3/a-1/demo/chap2-demo-2.html">Level 1</a>—<a href="/chapter3/a-2/demo/chap2-demo-2.html">Level 4</a></p><h3 id="任务b"><a href="#任务b" class="headerlink" title="任务b"></a>任务b</h3><p>绘制三维效果的Sierpinski Gasket, 要求同任务a，也可与任务a集成在同一个界面中。如输入剖分层次分别为1和4。<br>这里是实验结果：<a href="/chapter3/b-1/demo/chap2-demo-4.html">Level 1</a>—<a href="/chapter3/b-2/demo/chap2-demo-4.html">Level 4</a></p><h3 id="任务c"><a href="#任务c" class="headerlink" title="任务c"></a>任务c</h3><p>完成不同层次剖分效果的绘制，这里的绘制采用线框模式，可以同任务a及任务b集成在同一个界面中。如输入剖分层次分别为1和4。<br>这里是实验结果：<a href="/chapter3/c-1/demo/chap2-demo-2.html">Level 1</a>—<a href="/chapter3/c-2/demo/chap2-demo-2.html">Level 4</a></p><h3 id="任务d"><a href="#任务d" class="headerlink" title="任务d"></a>任务d</h3><p>任务c中剖分后的三角形添加旋转效果。假设没有旋转时，图中绘制的各个点的坐标分别为$(x,y,z)$，因只涉及二维平面，故有$z&#x3D;0$。当图案在$xoy$平面上绕原点旋转时，即绕(z)轴逆时针旋转角度$\theta$时，新的坐标$(x’,y’,z’)$为$x’&#x3D;x\cos(\theta)-y\sin(\theta)$, $y’&#x3D;x\sin(\theta)+y\cos(\theta)$。<br>这里是实验结果：<a href="/chapter3/d-1/demo/chap2-demo-2.html">No Rotation</a>—<a href="/chapter3/d-2/demo/chap2-demo-2.html">Rotation 60 deg</a></p><h3 id="任务e"><a href="#任务e" class="headerlink" title="任务e"></a>任务e</h3><p>在任务d中，如果旋转角度根据点到原点的距离$d$设定，即有$x’&#x3D;x\cos(d\theta)-y\sin(d\theta)$, $y’&#x3D;x\sin(d\theta)+y\cos(d\theta)$，其中，$d&#x3D;\sqrt{(x^2+y^2)}$。<br>这里是实验结果：<a href="/chapter3/e-1/demo/chap2-demo-2.html">Rotation 60 deg</a>—<a href="/chapter3/e-2/demo/chap2-demo-2.html">Rotation 180 deg</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>计算机图形学—实验2</title>
       <link href="/2022/09/24/ji-suan-ji-tu-xing-xue-shi-yan-2/"/>
       <url>/2022/09/24/ji-suan-ji-tu-xing-xue-shi-yan-2/</url>

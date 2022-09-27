@@ -6,7 +6,7 @@
   <link href="https://a1egre.github.io/atom.xml" rel="self"/>
   
   <link href="https://a1egre.github.io/"/>
-  <updated>2022-09-24T10:31:26.085Z</updated>
+  <updated>2022-09-27T10:21:10.646Z</updated>
   <id>https://a1egre.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机图形学—实验3</title>
+    <link href="https://a1egre.github.io/2022/09/27/ji-suan-ji-tu-xing-xue-shi-yan-3/"/>
+    <id>https://a1egre.github.io/2022/09/27/ji-suan-ji-tu-xing-xue-shi-yan-3/</id>
+    <published>2022-09-27T08:44:28.616Z</published>
+    <updated>2022-09-27T10:21:10.646Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;欢迎来到我的Blog！&lt;/p&gt;
+&lt;p&gt;我是2020级医学信息工程2班的王卓雅！&lt;/p&gt;
+&lt;p&gt;这里是实验3的作业——WebGL图案绘制&lt;/p&gt;
+&lt;h2 id=&quot;实验任务&quot;&gt;&lt;a href=&quot;#实验任务&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>计算机图形学—实验2</title>
