@@ -1,0 +1,232 @@
+button{
+		background-color: #4CAF50; /* Green */
+		border: none;
+		color: white;
+		padding: 10px 24px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		font-family: 宋体;
+		border-radius: 8px;
+		transition-duration: 0.4s;
+}
+button:hover{
+	background-color: #f5f5f5;
+	color: black;
+}
+
+input[type=range] {
+	-webkit-appearance:none;/* 隐藏滑块，以便自定义滑块样式 */
+	width: 20%;/* Firefox下所需 */
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance:none;
+}
+
+input[type=range]:focus {
+	outline:none;/* 去掉默认蓝色边框 */
+}
+
+input[type=range]::-ms-track {
+	width: 20%;
+	cursor:pointer;
+	background:transparent;/* 隐藏滑块，以便自定义滑块样式 */
+	border-color:transparent;
+	color:transparent;
+}
+
+/* 设定WebKit浏览器下range */
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance:none;
+	border:1px solid #8a8a8a;
+	height:36px;
+	width:16px;
+	border-radius:3px;
+	background:#ffffff;
+	cursor:pointer;
+	margin-top: -14px;/* 在Chrome下你需要定义一个margin值, 但在Firefox和IE下，是自动的 */
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;/* 为滑块增加一个酷炫的特效 */
+}
+
+/* Firefox下 */
+
+input[type=range]::-moz-range-thumb {
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+	border:1px solid #8a8a8a;
+	height:36px;
+	width:16px;
+	border-radius:3px;
+	background:#ffffff;
+	cursor:pointer;
+}
+
+/* IE下 */
+
+input[type=range]::-ms-thumb {
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+	border:1px solid #8a8a8a;
+	height:36px;
+	width:16px;
+	border-radius:3px;
+	background:#ffffff;
+	cursor:pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	width: 20%;
+	height: 15px;
+	cursor:pointer;
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+	background: #aaaaff /* #3071a9 */;
+	border-radius: 1.3px;
+	border: 0.2px solid #8a8a8a;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #8a8aff /* #367ebd */;
+}
+
+input[type=range]::-moz-range-track {
+	width: 20%;
+	height: 15px;
+	cursor:pointer;
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+	background:#aaaaff;
+	border-radius: 1.3px;
+	border: 0.2px solid #8a8a8a;
+}
+
+input[type=range]::-ms-track {
+	width: 20%;
+	height: 15px;
+	cursor:pointer;
+	background:transparent;
+	border-color:transparent;
+	border-width:16px 0;
+	color:transparent;
+}
+
+input[type=range]::-ms-fill-lower{
+	background:#2a6495;
+	border: 0.2px solid #8a8a8a;
+	border-radius: 2.6px;
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+}
+
+input[type=range]:focus::-ms-fill-lower{
+	background:#aaaaff;
+}
+
+input[type=range]::-ms-fill-upper {
+	background:#aaaaff;
+	border: 0.2px solid #8a8a8a;
+	border-radius: 2.6px;
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+	background:#8a8aff;
+}
+
+input[type=range] {
+-webkit-appearance:none;
+	margin:18px 0;
+	width: 20%;
+}
+
+input[type=range]:focus {
+	outline:none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	width: 20%;
+	height: 15px;
+	cursor:pointer;
+	animate: 0.2s;
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+	background:#aaaaff;
+	border-radius: 1.3px;
+	border: 0.2px solid #8a8a8a;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+	border:1px solid#8a8a8a;
+	height:36px;
+	width:16px;
+	border-radius:3px;
+	background:#ffffff;
+	cursor:pointer;
+	-webkit-appearance:none;
+	margin-top: -14px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background:#8a8aff;
+}
+
+input[type=range]::-moz-range-track {
+	width: 20%;
+	height: 15px;
+	cursor:pointer;
+	animate: 0.2s;
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+	background:#aaaaff;
+	border-radius: 1.3px;
+	border: 0.2px solid #8a8a8a;
+}
+
+input[type=range]::-moz-range-thumb {
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+	border:1px solid #8a8a8a;
+	height:36px;
+	width:16px;
+	border-radius:3px;
+	background:#ffffff;
+	cursor:pointer;
+}
+
+input[type=range]::-ms-track {
+	width: 20%;
+	height: 15px;
+	cursor:pointer;
+	animate: 0.2s;
+	background:transparent;
+	border-color:transparent;
+	border-width:16px0;
+	color:transparent;
+}
+
+input[type=range]::-ms-fill-lower{
+	background: #2a6495;
+	border: 0.2px solid #8a8a8a;
+	border-radius: 2.6px;
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+}
+
+input[type=range]::-ms-fill-upper {
+	background:#aaaaff;
+	border: 0.2px solid #8a8a8a;
+	border-radius: 2.6px;
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+}
+
+input[type=range]::-ms-thumb {
+	box-shadow:1px 1px 1px #8a8a8a, 0px 0px 1px #8a8a8a;
+	border:1px solid #8a8a8a;
+	height:36px;
+	width:16px;
+	border-radius:3px;
+	background:#ffffff;
+	cursor:pointer;
+}
+input[type=range]:focus::-ms-fill-lower{
+	background:#aaaaff;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+	background:#8a8aff;
+}

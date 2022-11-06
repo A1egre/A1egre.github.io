@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Test5-e</title>
+	<style type="text/css">
+		button{
+				background-color: #4CAF50; /* Green */
+				border: none;
+				color: white;
+				padding: 10px 24px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				font-family: 宋体;
+				border-radius: 8px;
+				transition-duration: 0.4s;
+		}
+		button:hover{
+			background-color: #f5f5f5;
+			color: black;
+		}
+		.shortselect{  
+		    background:#fafdfe;  
+		    height:28px;  
+		    width:180px;  
+		    line-height:28px;  
+		    border:1px solid #9bc0dd;  
+		    -moz-border-radius:2px;  
+		    -webkit-border-radius:2px;  
+		    border-radius:2px;  
+			font-family: 宋体;
+			font-size: 15px;
+			font-weight: 800;
+		}  
+	</style>
+    <script id="vertex-shader" type="x-shader/x-vertex">
+	attribute vec4 vPosition;
+	attribute vec4 vColor;
+
+	varying vec4 fColor;
+
+	void main()
+	{
+		gl_Position = vPosition;
+		fColor = vColor;
+	}
+	</script>
+
+    <script id="fragment-shader" type="x-shader/x-fragment">
+	precision mediump float;
+
+	varying vec4 fColor;
+
+	void main()
+	{
+		gl_FragColor = fColor;
+	}
+	</script>
+
+    <script type="text/javascript" src="../js/common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../js/common/initShaders.js"></script>
+    <script type="text/javascript" src="../js/common/gl-matrix-min.js"></script>
+
+    <script type="text/javascript" src="../js/own/Closepoly.js"></script>
+</head>
+
+<body onload="initPolygonCanvas()">
+    <canvas id="ply-canvas" width="512" height="512">你的浏览器不支持HTML5 canvas元素
+    </canvas>
+        <h2>选择颜色</h2>
+		<select id="cmenu" class="shortselect">
+            <option value="0">black</option>
+            <option value="1">red</option>
+            <option value="2">yellow</option>
+            <option value="3">green</option>
+            <option value="4">Blue</option>
+            <option value="5">Magenta</option>
+            <option value="6">Cyan</option>
+        </select>
+		<h2>点击绘制</h2>
+		<button id="closepoly">多边形</button>
+		<button onclick="window.location.reload()">清除画布</button>
+</body>
+
+</html>

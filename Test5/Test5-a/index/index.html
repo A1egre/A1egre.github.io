@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+    <title>Test5-a</title>
+	<style type="text/css">
+		button{
+			background-color: #4CAF50; /* Green */
+			border: none;
+			color: white;
+			padding: 10px 24px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			font-family: 宋体;
+			border-radius: 8px;
+			transition-duration: 0.4s;
+		}
+		button:hover{
+			background-color: #f5f5f5;
+			color: black;
+		}
+	</style>
+    <script id="rtvshader" type="x-shader/x-vertex">
+	attribute vec4 vPosition;
+	attribute vec4 vColor;
+	varying vec4 fColor;
+
+	uniform vec3 theta;
+
+	void main()
+	{
+		//compute the sins and cos of theta for each of the three axis in one computation
+		vec3 angles = radians( theta );
+		vec3 cost = cos( theta );
+		vec3 sint = sin( theta );
+
+		mat4 rx = mat4(  1.0,  0.0,  0.0, 0.0,
+						 0.0,  cost.x,  sint.x, 0.0,
+						 0.0,  -sint.x,  cost.x, 0.0,
+						 0.0,  0.0,  0.0, 1.0
+						 );
+
+		mat4 ry = mat4(  cost.y,  0.0, -sint.y,  0.0,
+						 0.0,  1.0,  0.0,  0.0,
+						 sint.y,  0.0,  cost.y,  0.0,
+						 0.0,  0.0,  0.0,  1.0
+						 );
+
+		mat4 rz = mat4(  cost.z,  sint.z,  0.0,  0.0,
+						 -sint.z,  cost.z,  0.0,  0.0,
+						 0.0,  0.0,  1.0,  0.0,
+						 0.0,  0.0,  0.0,  1.0
+						 );
+
+		fColor = vColor;
+		gl_Position = rz * ry * rx * vPosition;
+		gl_Position.z = -gl_Position.z;
+	}
+	</script>
+
+    <script id="rtfshader" type="x-shader/x-fragment">
+	precision mediump float;
+	varying vec4 fColor;
+
+	void main()
+	{
+		gl_FragColor = fColor;
+	}
+	</script>
+    <script type="text/javascript" src="../js/common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../js/common/initShaders.js"></script>
+    <script type="text/javascript" src="../js/common/gl-matrix-min.js"></script>
+    
+    <script type="text/javascript" src="../js/own/cube.js"></script>
+</head>
+
+<body> 
+    <canvas id="rtcb-canvas" width="600" height="600">
+        你的浏览器不支持HTML5 canvas元素
+    </canvas>
+
+    <button id="xbutton">沿x轴旋转</button>
+    <button id="ybutton">沿y轴旋转</button>
+    <button id="zbutton">沿z轴旋转</button>
+	<button onclick="window.location.reload()">复原</button>
+</body>
+
+</html>
