@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>计算机图形学—实验8</title>
+      <link href="/2022/12/07/ji-suan-ji-tu-xing-xue-shi-yan-8/"/>
+      <url>/2022/12/07/ji-suan-ji-tu-xing-xue-shi-yan-8/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到我的Blog！</p><p>我是2020级医学信息工程2班的王卓雅！</p><p>这里是实验7的作业</p><h2 id="实验任务"><a href="#实验任务" class="headerlink" title="实验任务"></a>实验任务</h2><h3 id="2-1给球体添加纹理"><a href="#2-1给球体添加纹理" class="headerlink" title="2.1给球体添加纹理"></a>2.1给球体添加纹理</h3><p>在第六章绘制的球体基础上，残障本章demo2-4，实现球体上棋盘格纹理效果，可通过实现不同的纹理坐标形式，如映射到球体和映射到圆柱体，比较不同的纹理坐标在球体上实现的纹理效果差异。</p><h5 id="这里是实验结果：Test-8-a"><a href="#这里是实验结果：Test-8-a" class="headerlink" title="这里是实验结果：Test 8-a"></a>这里是实验结果：<a href="/Test8/index/index.html">Test 8-a</a></h5><h4 id="2-2交互式物体对象展示应用三"><a href="#2-2交互式物体对象展示应用三" class="headerlink" title="2.2交互式物体对象展示应用三"></a>2.2交互式物体对象展示应用三</h4><h5 id="在第六章添加光照模型的基础上，为交互式对象展示应用添加纹理支持，要求实现功能包括："><a href="#在第六章添加光照模型的基础上，为交互式对象展示应用添加纹理支持，要求实现功能包括：" class="headerlink" title="在第六章添加光照模型的基础上，为交互式对象展示应用添加纹理支持，要求实现功能包括："></a>在第六章添加光照模型的基础上，为交互式对象展示应用添加纹理支持，要求实现功能包括：</h5><p>1.通过选择纹理图片实现自定义纹理。<br>2.实现纹理图案与物体颜色的混合效果<br>3.添加天空盒实现环境映射效果，可自定义选择天空盒图片（选做）。<br>4.添加凹凸映射效果，包括选择凹凸映射纹理图片，凹凸映射系数实现最终效果。</p><p>由于在实验六的基础上添加，界面上的元素会越来越多，请综合利用已有多门课程知识，合理设计界面菜单和交互控制元素布局，灵活采用不同类型交互元素实现所要求各项功能。</p><h5 id="这里是实验结果：Test-8-b"><a href="#这里是实验结果：Test-8-b" class="headerlink" title="这里是实验结果：Test 8-b"></a>这里是实验结果：<a href="/Test8-b/index/index.html">Test 8-b</a></h5>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机图形学—实验7</title>
+      <link href="/2022/11/27/ji-suan-ji-tu-xing-xue-shi-yan-7/"/>
+      <url>/2022/11/27/ji-suan-ji-tu-xing-xue-shi-yan-7/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到我的Blog！</p><p>我是2020级医学信息工程2班的王卓雅！</p><p>这里是实验7的作业</p><h2 id="实验任务：交互式物体对象展示应用一"><a href="#实验任务：交互式物体对象展示应用一" class="headerlink" title="实验任务：交互式物体对象展示应用一"></a>实验任务：交互式物体对象展示应用一</h2><h5 id="在实验六实现的交互式模型展示功能基础上，添加Phong光照模型效果，要求包含以下元素："><a href="#在实验六实现的交互式模型展示功能基础上，添加Phong光照模型效果，要求包含以下元素：" class="headerlink" title="在实验六实现的交互式模型展示功能基础上，添加Phong光照模型效果，要求包含以下元素："></a>在实验六实现的交互式模型展示功能基础上，添加Phong光照模型效果，要求包含以下元素：</h5><p>1.参照Demo：实现对材质的环境光反射系数、漫反射系数、高光反射系数及高光亮度系数的调节。<br>2.参照Demo：实现对材质的颜色三个分量的选择。<br>3.参照Demo：实现对光源位置的调节。<br>4.参照Demo：实现对光源颜色三个分量的选择。<br>5.该选项为选作项：实现Gouraud Shading和Phong Shading的效果切换。</p><p>由于在实验六的基础上添加，界面上的元素会越来越多，请综合利用已有多门课程知识，合理设计界面菜单和交互控制元素布局，灵活采用不同类型交互元素实现所要求各项功能。</p><h5 id="这里是实验结果：Test-7"><a href="#这里是实验结果：Test-7" class="headerlink" title="这里是实验结果：Test 7"></a>这里是实验结果：<a href="/Test7/index/index.html">Test 7</a></h5>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>计算机图形学—实验6</title>
       <link href="/2022/11/11/ji-suan-ji-tu-xing-xue-shi-yan-6/"/>
       <url>/2022/11/11/ji-suan-ji-tu-xing-xue-shi-yan-6/</url>
